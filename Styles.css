@@ -1,0 +1,65 @@
+body {
+    font-family: Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #2ecc71, #3498db);
+    color: #fff;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+
+  /* Linear Gradient */
+  .linear-gradient-box {
+    width: 300px;
+    height: 150px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  /* Radial Gradient */
+  .radial-gradient-box {
+    width: 300px;
+    height: 150px;
+    margin: 20px auto;
+    background: radial-gradient(circle, #e74c3c, #f39c12);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  /* Combined Gradients */
+  .combined-gradient-box {
+    width: 300px;
+    height: 150px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #3498db, #2ecc71), radial-gradient(circle, #e74c3c, #f39c12);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  /* Repeat Gradient */
+  .repeat-gradient-box {
+    width: 300px;
+    margin: 20px auto;
+    height: 150px;
+    background-image: repeating-linear-gradient(45deg, orange 0px, blue 10px, red 10px, green 10px, grey 20px);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
